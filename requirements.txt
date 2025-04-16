@@ -1,3 +1,93 @@
-streamlit
-langchain-google-genai
-python-dotenv
+# 🌍 SkyTrip - Your AI Travel Assistant
+
+**Skytrip**is a smart travel companion built with **Streamlit** and powered by **Google Gemini Pro** (via LangChain). It offers real-time weather info, top tourist attractions, and AI-generated recommendations tailored to the current conditions of your destination.
+
+## 📂 Project Structure
+
+SkyTrip/
+├── TripMate.py             # Main Streamlit app
+├── README.md               # Project documentation
+└── venv/                   # Virtual environment (excluded from Git)
+
+## 🚀 Features
+
+- 🔎 **Live Weather Forecast** – See current temperature, weather conditions, humidity, and wind speed.
+- 🗺️ **Top Tourist Places** – AI-generated top 5 attractions for any city.
+- 💡 **Travel Recommendations** – Get suggestions for clothing, hydration, and activities based on weather.
+- 📍 **Google Maps Integration** – Navigate directly to tourist spots.
+- 🖥️ **Modern UI** – Built with Streamlit for fast and smooth interaction.
+
+
+## 🧰 Tech Stack
+
+- **Frontend**: Streamlit
+- **Backend**: Python
+- **AI Model**: Google Gemini (via LangChain)
+- **APIs Used**:
+  - [OpenWeatherMap API](https://openweathermap.org/)
+  - [Google Gemini Pro API](https://ai.google.dev/)
+  - Google Maps (via URL links)
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/SkyTrip.git
+cd SkyTrip
+```
+
+### 2. Create & Activate Virtual Environment
+
+```bash
+python -m venv venv          # Create virtual environment
+source venv/bin/activate     # macOS/Linux
+venv\Scripts\activate        # Windows
+```
+
+### 3. Install Required Dependencies
+
+```bash
+pip install streamlit
+pip install requests
+pip install langchain
+pip install langchain-google-genai
+```
+
+---
+
+## 🔐 API Key Setup
+
+Open the `TripMate.py` file and replace the placeholders with your actual API keys:
+
+```python
+GOOGLE_API_KEY = "your_google_gemini_api_key"
+OPENWEATHER_API_KEY = "your_openweather_api_key"
+```
+
+Make sure your API keys are valid and active.
+
+---
+
+## ▶️ Run the App
+
+```bash
+streamlit run TripMate.py
+```
+
+Once running, it will open in your default browser at `http://localhost:8501`.
+
+---
+
+## 📝 Requirements Summary
+
+All dependencies are mentioned above, so no need for a separate `requirements.txt`. Here's a quick list:
+
+- `streamlit`
+- `requests`
+- `langchain`
+- `langchain-google-genai`
+
+
+
+
