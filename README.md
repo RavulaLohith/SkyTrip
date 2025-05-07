@@ -105,36 +105,6 @@ To optimize API usage and improve performance, responses are cached using:
 
 ---
 
-## 🛠 Setup & Installation
-
-1. **Clone the Repo**
-
-   ```bash
-   git clone https://github.com/your-username/skytrip.git
-   cd skytrip
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set API Keys**
-   Replace the placeholder values with your actual keys in the script:
-
-   ```python
-   GOOGLE_API_KEY = "your_gemini_api_key"
-   OPENWEATHER_API_KEY = "your_openweather_api_key"
-   ```
-
-4. **Run the App**
-
-   ```bash
-   streamlit run app.py
-   ```
-
----
 
 
 
